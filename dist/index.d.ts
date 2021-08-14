@@ -19,7 +19,7 @@ declare interface ShareDBMonaco {
 declare class ShareDBMonaco extends EventEmitter {
     WS: WebSocket;
     doc: sharedb.Doc;
-    private connection;
+    connection: any;
     bindings?: Bindings;
     /**
      * ShareDBMonaco

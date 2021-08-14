@@ -23,7 +23,7 @@ class ShareDBMonaco extends EventEmitter {
 
     WS: WebSocket;
     doc: sharedb.Doc;
-    private connection: any;
+    connection: any;
     bindings?: Bindings;
 
     /**
