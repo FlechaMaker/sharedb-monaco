@@ -1,5 +1,7 @@
 # sharedb-monaco
 
+Fork of https://github.com/codecollab-io/sharedb-monaco
+
 [![](https://img.shields.io/npm/v/sharedb-monaco)](https://github.com/Portatolova/sharedb-monaco/blob/master/LICENSE)
 [![](https://img.shields.io/github/license/codecollab-io/sharedb-monaco)](https://github.com/Portatolova/sharedb-monaco/blob/master/LICENSE)
 

@@ -25,7 +25,7 @@
   "dependencies": {
     "@types/node": "^15.12.2",
     "event-emitter-es6": "^1.1.5",
-    "monaco-editor": "^0.26.0",
+    "monaco-editor": "^0.29.0",
     "reconnecting-websocket": "^4.4.0",
     "sharedb": "^1.9.2"
   }
