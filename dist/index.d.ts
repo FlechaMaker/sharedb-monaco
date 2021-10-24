@@ -17,7 +17,7 @@ declare interface ShareDBMonaco {
     on(event: 'close', listener: () => void): this;
 }
 declare class ShareDBMonaco extends EventEmitter {
-    WS: WebSocket;
+    WS?: WebSocket;
     doc: sharedb.Doc;
     connection: any;
     bindings?: Bindings;
@@ -26,7 +26,8 @@ declare class ShareDBMonaco extends EventEmitter {
      * @param {ShareDBMonacoOptions} opts - Options object
      * @param {string} opts.id - ShareDB document ID
      * @param {string} opts.namespace - ShareDB document namespace
-     * @param {string} opts.wsurl - URL for ShareDB Server API
+     * @param {string} opts.wsurl (Optional) - URL for ShareDB Server API
+     * @param {sharedb.Connection} opts.connection (Optional) - ShareDB Connection instance
      */
     constructor(opts: ShareDBMonacoOptions);
     add(monaco: editor.ICodeEditor, path: string, viewOnly?: boolean): void;
